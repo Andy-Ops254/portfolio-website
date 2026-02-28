@@ -1,5 +1,6 @@
 import React from "react"
 import About from "./Hero"
+import Navbar from "./Navbar"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <div className="w-190 h-0 absolute top-0 left-1/2 -translate-x-1/2
   shadow-[0_0_900px_180px_#03302d] -z-10 rounded-full blur-3xl" />
 
+      <Navbar />
       <About />
     </main>
   )
