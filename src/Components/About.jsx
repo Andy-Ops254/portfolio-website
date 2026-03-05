@@ -22,7 +22,8 @@ function About() {
       },
     ]
   return (
-    <div className='mx-auto max-w-6xl mt-80'>
+    <section id='about'>
+    <div className='mx-auto max-w-6xl mt-40'>
         <h2 className='font-bold tracking-tight text-balance sm-text-4xl'>
             <span className='font-mono text-[#049188] text-sm underline decoration-solid decoration-[#049188]'>
                 01.
@@ -71,6 +72,7 @@ function About() {
             </div>
         </div>
     </div>
+    </section>
   )
 }
 
