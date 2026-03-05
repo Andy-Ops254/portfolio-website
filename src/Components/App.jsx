@@ -1,6 +1,7 @@
 import React from "react"
-import About from "./Hero"
+import About from "./About"
 import Navbar from "./Navbar"
+import Hero from "./Hero"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
   shadow-[0_0_900px_180px_#03302d] -z-10 rounded-full blur-3xl" />
 
       <Navbar />
+      <Hero />
       <About />
     </main>
   )
