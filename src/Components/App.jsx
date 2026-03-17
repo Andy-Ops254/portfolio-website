@@ -2,6 +2,7 @@ import React from "react"
 import About from "./About"
 import Navbar from "./Navbar"
 import Hero from "./Hero"
+import TechStack from "./TechStack"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <TechStack />
     </main>
   )
 }
