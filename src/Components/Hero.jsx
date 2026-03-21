@@ -8,6 +8,12 @@ function Hero() {
         document.getElementById("about").scrollIntoView({
             behavior:"smooth"
         })
+
+    function handleDownload () {
+        return (
+            <a href='#/my-cv.pdf'download className='btn'>Download Cv</a>
+        )
+    }
     }
   return (
     <div className='flex flex-col justify-center items-center px-6 text-center mx-auto max-w-3xl mt-32'>
@@ -31,18 +37,22 @@ function Hero() {
             My work is driven by a passion for creating products that make a meaningful impact.
         </h3>
         <div className='flex flex-row gap-4 mt-10 items-center justify-center' >
-            <button className='text-white px-6 py-3 border border-gray-400 
+            <a href='https://github.com/Andy-Ops254'
+            target='_blank'
+            rel='noopenner noreferrer'
+            className='text-white px-6 py-3 border border-gray-400 
             bg-[#0a0a0a] text-sm font-medium rounded-lg hover:border-[#049188] hover:text-[#049188] transition-all inline-flex gap-2'>
                 <Github className='h-4 w-4' />
                 GitHub
-            </button>
+            </a>
 
-            <button className='bg-[#049188] px-6 py-3 text-sm font-medium rounded-lg hover:text-white
-            transition-all hover:opacity-80 inline-flex gap-2 justify-center align-middle
-            '>
+            <a href='/my-cv.pdf'
+            download
+            className='bg-[#049188] px-6 py-3 text-sm font-medium rounded-lg hover:text-white
+            transition-all hover:opacity-80 inline-flex gap-2 justify-center align-middle btn'>
                 <Download  className='h-4 w-4'/>
                 Download CV
-            </button>
+            </a>
         </div>
         ,<button  onClick={handleClick}>
             <ArrowBigDown className='h-5 w-5 bg-black text-gray-400 

@@ -19,7 +19,7 @@ function Contact() {
         {
             label:"Gmail",
             icon:Mail,
-            href:"mailto:arimongi@gmsil.com"
+            href:"https://mail.google.com/mail/?view=cm&fs=1&to=arimongi.com@gmail.com"
         }
     ]
   return (
@@ -40,7 +40,7 @@ function Contact() {
         </div>
 
             <div className='flex flex-row gap-4 items-center sm:justify-center sm:gap-6'>
-                <a href='mailto:arimongi.com@gmail.com'
+                <a href='https://mail.google.com/mail/?view=cm&fs=1&to=arimongi.com@gmail.com'
                 target='_blank'
                 rel='norefferer noopener'
                 className='px-6 py-4 inline-flex gap-4 justify-center items-center w-full rounded-xl border 
@@ -52,7 +52,7 @@ function Contact() {
                     </span>
                 </a>
 
-                <a href='https://wa.me/254725843316?text=Hello%20there%20,im%20Andrew%20.'
+                <a href='https://wa.me/254725843316?text=Hello%20there%20,.'
                 target='_blank'
                 rel='noopenner noreferrer'
                 className='px-6 py-4 inline-flex gap-4 justify-center items-center w-full rounded-xl border 

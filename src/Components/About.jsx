@@ -60,7 +60,7 @@ function About() {
                             <item.icon  className='h-5 w-5'/>
                         </div>
                         <div>
-                            <h3 className='text-sm font-semibold text-white group-hover:text-[#04'>
+                            <h3 className='text-sm font-semibold text-white group-hover:text-[#049778]'>
                                 {item.title}
                             </h3>
                             <p className='mt-1 text-sm text-gray-400 leading-relaxed'>
