@@ -5,6 +5,7 @@ import Hero from "./Hero"
 import TechStack from "./TechStack"
 import Projects from "./Projects"
 import Contact from "./Contact"
+import Footer from "./Footer"
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <TechStack />
       <Projects />
       <Contact />
+      <Footer />
     </main>
   )
 }
