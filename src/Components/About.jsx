@@ -55,12 +55,12 @@ function About() {
                 {
                     highlights.map((item) => (
                         <div key={item.title} 
-                        className='flex gap-4 rounded-xl border border-gray-600 p-5 transition-colors hover:border-[#00bc7d]/30 bg-[#0a0a0a]'>
+                        className='flex gap-4 rounded-xl border border-gray-600 p-5 transition-colors group hover:border-[#00bc7d]/30 bg-[#0a0a0a]'>
                         <div className='flex h-10 w-10 rounded-lg items-center justify-center shrink-0 bg-[#00bc7d]/10 text-[#00bc7d]'>
                             <item.icon  className='h-5 w-5'/>
                         </div>
                         <div>
-                            <h3 className='text-sm font-semibold text-white'>
+                            <h3 className='text-sm font-semibold text-white group-hover:text-[#04'>
                                 {item.title}
                             </h3>
                             <p className='mt-1 text-sm text-gray-400 leading-relaxed'>

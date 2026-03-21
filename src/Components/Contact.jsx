@@ -23,7 +23,7 @@ function Contact() {
         }
     ]
   return (
-    <div className='max-w-3xl mx-auto text-center'>
+    <div id='contact' className='max-w-3xl mx-auto text-center'>
         <div className='mb-16'>
             <h1 className=' gap-4'>
                 <span className='font-mono text-[#049778] font-bold text-sm'>

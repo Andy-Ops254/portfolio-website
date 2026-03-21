@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect, useState, useRef } from 'react'
-import { Link } from 'react-router-dom'
+
 
 function Navbar() {
     const [isScrolling, setIsScrolling]=useState(false)
@@ -31,21 +31,25 @@ function Navbar() {
             </h1>
 
             <div className='flex flex-row gap-8 justify-center text-gray-300 font-mono text-lg'>
-                <Link className='hover:opacity-60'>
+                <a href='#about' 
+                className='hover:opacity-60'>
                     About
-                </Link>
+                </a>
 
-                <Link className='hover:opacity-60'>
+                <a href='#tech'
+                className='hover:opacity-60'>
                     TechStack
-                </Link>
+                </a>
 
-                <Link className='hover:opacity-60'>
+                <a href='#projects' 
+                className='hover:opacity-60'>
                     Projects
-                </Link>
+                </a>
 
-                <Link className='hover:opacity-60'>
+                <a href='#contact' 
+                className='hover:opacity-60'>
                     Contact 
-                </Link>
+                </a>
             </div>
         </nav>
     </div>

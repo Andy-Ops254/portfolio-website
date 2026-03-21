@@ -28,7 +28,7 @@ function TechStack() {
         Design: "bg-[#7c28c9]/10 text-[#7c28c9] text-semibold"
     }
   return (
-    <section className='px=6 py=24 lg:py-32'>
+    <section id='tech' className='px=6 py=24 lg:py-32'>
         <div className='mx-auto max-w-6xl '>
             <div className='mb-16'>
                 <h2 className='font-bold tracking-tight leading-relaxed text-3xl sm:text-4xl text-white font-serif'>
