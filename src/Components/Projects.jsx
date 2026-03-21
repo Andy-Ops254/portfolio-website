@@ -29,7 +29,7 @@ function Projects() {
         }
     ]
   return (
-    <div className='max-w-6xl mx-auto mb-16'>
+    <div className='max-w-6xl mx-auto mb-32'>
         <div>
             <h1 className='font-bold tracking-tight '>
                 <span className='font-mono text-[#049778] text-sm '>

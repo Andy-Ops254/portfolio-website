@@ -4,6 +4,7 @@ import Navbar from "./Navbar"
 import Hero from "./Hero"
 import TechStack from "./TechStack"
 import Projects from "./Projects"
+import Contact from "./Contact"
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <About />
       <TechStack />
       <Projects />
+      <Contact />
     </main>
   )
 }

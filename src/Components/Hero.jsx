@@ -1,5 +1,5 @@
 import React from 'react'
-import { ArrowBigDown, CatIcon, Download } from 'lucide-react'
+import { ArrowBigDown, Github, Download } from 'lucide-react'
 
 
 function Hero() {
@@ -32,8 +32,8 @@ function Hero() {
         </h3>
         <div className='flex flex-row gap-4 mt-10 items-center justify-center' >
             <button className='text-white px-6 py-3 border border-gray-400 
-            bg-gray-700 text-sm font-medium rounded-lg hover:border-[#049188] hover:text-[#049188] transition-all inline-flex gap-2'>
-                <CatIcon className='h-4 w-4' />
+            bg-[#0a0a0a] text-sm font-medium rounded-lg hover:border-[#049188] hover:text-[#049188] transition-all inline-flex gap-2'>
+                <Github className='h-4 w-4' />
                 GitHub
             </button>
 
