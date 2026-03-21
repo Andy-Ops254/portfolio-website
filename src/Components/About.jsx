@@ -54,7 +54,8 @@ function About() {
             <div className='flex flex-col gap-6 lg:col-span-2'>
                 {
                     highlights.map((item) => (
-                        <div className='flex gap-4 rounded-xl border border-gray-600 p-5 transition-colors hover:border-[#00bc7d]/30'>
+                        <div key={item.title} 
+                        className='flex gap-4 rounded-xl border border-gray-600 p-5 transition-colors hover:border-[#00bc7d]/30 bg-[#0a0a0a]'>
                         <div className='flex h-10 w-10 rounded-lg items-center justify-center shrink-0 bg-[#00bc7d]/10 text-[#00bc7d]'>
                             <item.icon  className='h-5 w-5'/>
                         </div>

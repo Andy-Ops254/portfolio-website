@@ -51,8 +51,8 @@ function TechStack() {
                     </h3>
                     <div className='flex flex-wrap gap-3'>
                         {items.map((tech) => (
-                            <h2 className={`font-semibold text-sm px-4 py-2 inline-flex items-center rounded-lg border 
-                            transition-all hover:scale-105 ${categoriesColors[category]} mb-4`}>
+                            <h2 key={tech.name} className={`font-semibold text-sm px-4 py-2 inline-flex items-center rounded-lg border 
+                            transition-all hover:scale-105 bg-[#0a0a0a]${categoriesColors[category]} mb-4`}>
                                 {tech.name}
                             </h2>
                         ))}

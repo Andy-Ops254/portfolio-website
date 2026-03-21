@@ -3,6 +3,7 @@ import About from "./About"
 import Navbar from "./Navbar"
 import Hero from "./Hero"
 import TechStack from "./TechStack"
+import Projects from "./Projects"
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Hero />
       <About />
       <TechStack />
+      <Projects />
     </main>
   )
 }
