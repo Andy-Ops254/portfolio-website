@@ -51,7 +51,10 @@ function About() {
             </div>
 
             {/* the side cards for this section */}
-            <div className='flex flex-col gap-6 lg:col-span-2'>
+            <div 
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            className='flex flex-col gap-6 lg:col-span-2'>
                 {
                     highlights.map((item) => (
                         <div key={item.title} 

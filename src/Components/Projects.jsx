@@ -45,7 +45,10 @@ function Projects() {
                 Each has taught me valuable software engineering skills.
             </p>
         </div>
-        <div className='grid gap-6 sm:grid-cols-2 lg:grid-cols-3'>
+        <div 
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        className='grid gap-6 sm:grid-cols-2 lg:grid-cols-3'>
         {project.map((item, index) => (
             <div
             className='group relative overflow-hidden rounded-xl border 
