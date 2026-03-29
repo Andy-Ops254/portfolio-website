@@ -42,7 +42,7 @@ function Contact() {
             <div 
             data-aos="fade-up"
             data-aos-duration="3000"
-            className='flex flex-row gap-4 items-center sm:justify-center sm:gap-6'>
+            className='flex flex-col lg:flex-row gap-4 items-center sm:justify-center sm:gap-6'>
                 <a href='https://mail.google.com/mail/?view=cm&fs=1&to=arimongi.com@gmail.com'
                 target='_blank'
                 rel='norefferer noopener'

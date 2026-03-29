@@ -35,7 +35,7 @@ function About() {
         </h2>
 
 {/* this will be the main text for the section */}
-        <div className='flex flex-row justify-between gap-12 mt-14'>
+        <div className='flex flex-col lg:flex-row justify-between gap-12 mt-14 mb-16'>
             <div className='lg:grid-cols-3'>
                 <p className='text-pretty leading-relaxed text-gray-400 sm:text-lg'>
 
